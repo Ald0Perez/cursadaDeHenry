@@ -1,3 +1,5 @@
+//EJEMPLO 1
+
 Array.prototype.mayorQueTres = function () {
     var arregloModificado = [];
     for (var i = 0; i < this.length; i++) {
@@ -14,6 +16,8 @@ Array.prototype.mayorQueTres = function () {
  var nuevoArreglo = arreglo.mayorQueTres();
 
  console.log(nuevoArreglo);
+
+//EJEMPLO 2
 
  class LatinoAmerica {
 	constructor() {
